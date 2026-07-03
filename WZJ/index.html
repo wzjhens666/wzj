@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春天记忆 | 我的多彩人生首页</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- 页头Header -->
+    <header class="header">
+        <div class="logo-box">
+            <img src="images/logo.png.png" alt="春天记忆LOGO" class="logo">
+            <h1 class="site-name">春天记忆</h1>
+            <p class="site-slogan">记录多彩人生，奔赴温热未来</p>
+        </div>
+    </header>
+
+    <!-- 主导航（含二级下拉导航 硬性考点） -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="index.html" class="active">首页</a></li>
+            <li class="dropdown">
+                <a href="about.html">个人中心 ▼</a>
+                <ul class="dropdown-nav">
+                    <li><a href="about.html">个人简介</a></li>
+                    <li><a href="study.html">学习之旅</a></li>
+                </ul>
+            </li>
+            <li><a href="hobby.html">兴趣爱好</a></li>
+            <li><a href="travel.html">旅行见闻</a></li>
+            <li><a href="future.html">未来规划</a></li>
+            <li><a href="contact.html">留言互动</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主容器：侧边栏 + 主体内容（首页强制结构） -->
+    <div class="container">
+        <!-- 侧边栏Sidebar -->
+        <aside class="sidebar">
+            <div class="author-card">
+                <img src="images/avatar.jpg.png" alt="个人头像" class="avatar">
+                <h3>韦忠江</h3>
+                <p>25岁 | 物联网工程</p>
+                <p>玉林师范学院</p>
+            </div>
+            <div class="visit-box">
+                <p>本站访客数：<span id="visit-count">0</span></p>
+            </div>
+            <div class="side-nav">
+                <h4>快速导航</h4>
+                <ul>
+                    <li><a href="about.html">个人简介</a></li>
+                    <li><a href="study.html">学业历程</a></li>
+                    <li><a href="hobby.html">生活爱好</a></li>
+                    <li><a href="travel.html">旅行足迹</a></li>
+                    <li><a href="future.html">人生规划</a></li>
+                </ul>
+            </div>
+            <div class="top-box">
+                <button onclick="goTop()" class="top-btn">返回顶部</button>
+            </div>
+        </aside>
+
+        <!-- 文章主体区 -->
+        <main class="main-content">
+            <article class="welcome-card">
+                <h2>欢迎来到「春天记忆」✨</h2>
+                <p>大家好！我是韦忠江，玉林师范学院物联网专业的一名学生。本网站命名为<strong>春天记忆</strong>，寓意人生如春日，充满生机、成长与无限可能。</p>
+                <p>网站记录了我的个人信息、学习经历、兴趣爱好、旅行见闻以及未来人生规划，全方位展示属于我的多彩人生。本站采用HTML5+CSS3+原生JavaScript开发，具备二级导航、表单验证、移动端自适应、动态特效等前端核心技术，完全符合课程期末作品要求。</p>
+                <h3>网站速览</h3>
+                <div class="home-gallery">
+                    <figure class="img-item">
+                        <img src="images/jzz.png" alt="橘子洲风光">
+                        <figcaption>长沙橘子洲：湘水绿洲，红色地标</figcaption>
+                    </figure>
+                    <figure class="img-item">
+                        <img src="images/guizhou.jpg.png" alt="贵州小七孔风景区">
+                        <figcaption>贵州小七孔：青山绿水治愈之旅</figcaption>
+                    </figure>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <!-- 页脚Footer（必填学号姓名） -->
+    <footer class="footer">
+        <p>©2025 春天记忆 版权所有 | 作者：韦忠江 学号：202522102121</p>
+        <p>Web前端开发技术 期末课程作品 | HTML5+CSS3+JavaScript制作</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
